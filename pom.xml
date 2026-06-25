@@ -7,7 +7,7 @@
     <groupId>org.wanghong</groupId>
     <artifactId>springboot</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <!-- 继承 Spring Boot 父项目，统一管理版本 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -15,6 +15,7 @@
     </parent>
 
     <dependencies>
+        <!-- Web 启动器：内嵌 Tomcat + Spring MVC -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
